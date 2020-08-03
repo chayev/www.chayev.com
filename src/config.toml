@@ -1,0 +1,121 @@
+baseurl = "http://www.chayev.com"
+title = "Michael Ibragimchayev"
+
+theme = "hugo-coder"
+
+googleAnalytics = "UA-174282916-1"
+
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "b2"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+# disqusShortname = "yourdiscussshortname"
+
+[params]
+    author = "Michael Ibragimchayev"
+    description = "Michael Ibragimchayev's personal website"
+    keywords = "developer,personal"
+    info = "A product-driven customer leader with Fortune 500 SaaS deployment experience"
+    avatarurl = "images/avatar.jpg"
+    image = "images/avatar.jpg"
+    title = "Michael Ibragimchayev"
+    #gravatar = "john.doe@example.com"
+    footercontent = "Thank you for visiting my page!"
+
+    dateformat = "January 2, 2006"
+
+    hideFooter = false
+    hideCredits = true
+    hideCopyright = false
+    since = 2020
+
+    rtl = false
+
+    # Specify light/dark colorscheme
+    # Supported values:
+    # "auto" (use preference set by browser)
+    # "dark" (dark background, light foreground)
+    # "light" (light background, dark foreground) (default)
+    colorscheme = "auto"
+
+    # Series see also post count
+    maxSeeAlsoItems = 5
+
+    # Enable Twemoji
+    enableTwemoji = true
+
+    # Custom CSS
+    custom_css = []
+
+    # Custom JS
+    custom_js = []
+
+# If you want to use fathom(https://usefathom.com) for analytics, add this section
+# [params.fathomAnalytics]
+    # siteID = "ABCDE"
+    # Default value is cdn.usefathom.com, overwrite this if you are self-hosting
+    # serverURL = "analytics.example.com"
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github"
+    weight = 1
+    url = "https://github.com/chayev"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin"
+    weight = 2
+    url = "https://www.linkedin.com/in/mibragimchayev/"
+# [[params.social]]
+#     name = "Twitter"
+#     icon = "fab fa-twitter"
+#     weight = 3
+#     url = "https://twitter.com/mibragimchayev"
+[[params.social]]
+    name = "Email"
+    icon = "fas fa-envelope"
+    weight = 4
+    url = "mailto:michael@chayev.com"
+
+
+[languages]
+    [languages.en]
+        languagename = "English"
+
+        [languages.en.menu]
+
+            [[languages.en.menu.main]]
+            name = "Home"
+            weight = 1
+            url = "/"
+
+            [[languages.en.menu.main]]
+            name = "About"
+            weight = 2
+            url = "about/"
+
+            # [[languages.en.menu.main]]
+            # name = "Blog"
+            # weight = 3
+            # url = "posts/"
+
+            # [[languages.en.menu.main]]
+            # name = "Projects"
+            # weight = 4
+            # url = "projects/"
+
+            [[languages.en.menu.main]]
+            name = "Contact me"
+            weight = 5
+            url = "contact/"
