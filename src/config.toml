@@ -1,9 +1,10 @@
-baseurl = "http://www.chayev.com"
+baseurl = "https://www.chayev.com/"
 title = "Michael Ibragimchayev"
 
 theme = "hugo-coder"
 
 googleAnalytics = "UA-174282916-1"
+publishdir = "../docs"
 
 languagecode = "en"
 defaultcontentlanguage = "en"
@@ -98,7 +99,7 @@ pygmentscodefencesguesssyntax = true
             [[languages.en.menu.main]]
             name = "Home"
             weight = 1
-            url = "/"
+            url = ""
 
             [[languages.en.menu.main]]
             name = "About"

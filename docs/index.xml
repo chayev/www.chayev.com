@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Michael Ibragimchayev</title>
+    <link>https://www.chayev.com/</link>
+    <description>Recent content on Michael Ibragimchayev</description>
+    <generator>Gotham -- gothamhq.com</generator>
+    <language>en</language>
+    
+	<atom:link href="https://www.chayev.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://www.chayev.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.chayev.com/about/</guid>
+      <description>Hey all!
+My name is Michael Ibragimchayev. 👋🏼
+I currently work at AppsFlyer, a mobile attribution and marketing analytics company headquartered out of Israel. I’m from New York City and am currently based here as well. I spent a very short year living in San Francisco, CA during my time at my previous company Datorama, acquired by Salesforce in 2018.
+I am one of the co-founders of Gotham - a soft fork of the Hugo open-source project, a fully functional static site builder built using Go.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://www.chayev.com/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.chayev.com/contact/</guid>
+      <description>✉️ Email me, michael@chayev.com</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://www.chayev.com/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.chayev.com/projects/</guid>
+      <description>Gotham yURL BetterQuestions &amp;hellip; and more  Coming soon!!</description>
+    </item>
+    
+  </channel>
+</rss>
