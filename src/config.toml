@@ -21,7 +21,7 @@ pygmentscodefencesguesssyntax = true
 [params]
     author = "Michael Ibragimchayev"
     description = "Michael Ibragimchayev's personal website"
-    keywords = "developer,personal"
+    keywords = "developer,personal,data,mobile"
     info = "A product-driven customer leader with Fortune 500 SaaS deployment experience"
     avatarurl = "images/avatar.jpg"
     image = "images/avatar.jpg"
