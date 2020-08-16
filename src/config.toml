@@ -16,6 +16,11 @@ pygmentsstyle = "b2"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
+[markup]
+	[markup.goldmark]
+		[markup.goldmark.renderer]
+			unsafe = true
+
 # disqusShortname = "yourdiscussshortname"
 
 [params]
@@ -26,8 +31,8 @@ pygmentscodefencesguesssyntax = true
     avatarurl = "images/avatar.jpg"
     image = "images/avatar.jpg"
     title = "Michael Ibragimchayev"
-    #gravatar = "john.doe@example.com"
-    footercontent = "Thank you for visiting my page!"
+    # gravatar = "michael@chayev.com"
+    # footercontent = "Thank you for visiting my page!"
 
     dateformat = "January 2, 2006"
 
@@ -52,7 +57,7 @@ pygmentscodefencesguesssyntax = true
     enableTwemoji = true
 
     # Custom CSS
-    custom_css = []
+    custom_css = ["css/custom.css"]
 
     # Custom JS
     custom_js = []
@@ -82,7 +87,7 @@ pygmentscodefencesguesssyntax = true
 #     name = "Twitter"
 #     icon = "fab fa-twitter"
 #     weight = 3
-#     url = "https://twitter.com/mibragimchayev"
+#     url = "https://twitter.com/chayev_talks"
 [[params.social]]
     name = "Email"
     icon = "fas fa-envelope"
@@ -111,12 +116,12 @@ pygmentscodefencesguesssyntax = true
             # weight = 3
             # url = "posts/"
 
-            # [[languages.en.menu.main]]
-            # name = "Projects"
-            # weight = 4
-            # url = "projects/"
+            [[languages.en.menu.main]]
+            name = "Projects"
+            weight = 4
+            url = "projects/"
 
             [[languages.en.menu.main]]
-            name = "Contact me"
+            name = "Contact"
             weight = 5
             url = "contact/"
