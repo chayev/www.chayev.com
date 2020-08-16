@@ -7,7 +7,7 @@
     <meta http-equiv="Content-Language" content="en">
 
     <meta name="author" content="Michael Ibragimchayev">
-    <meta name="description" content="✉️ Email me, michael@chayev.com">
+    <meta name="description" content="Name: Email: Message:   ✉️ You could also email me directly at michael@chayev.com ✉️">
     <meta name="keywords" content="developer,personal,data,mobile">
 
     
@@ -15,11 +15,11 @@
     
 
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Contact"/>
-<meta name="twitter:description" content="✉️ Email me, michael@chayev.com"/>
+<meta name="twitter:title" content="Contact Me"/>
+<meta name="twitter:description" content="Name: Email: Message:   ✉️ You could also email me directly at michael@chayev.com ✉️"/>
 
-    <meta property="og:title" content="Contact" />
-<meta property="og:description" content="✉️ Email me, michael@chayev.com" />
+    <meta property="og:title" content="Contact Me" />
+<meta property="og:description" content="Name: Email: Message:   ✉️ You could also email me directly at michael@chayev.com ✉️" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://www.chayev.com/contact/" />
 <meta property="og:site_name" content="Michael Ibragimchayev" />
@@ -29,7 +29,7 @@
       <base href="https://www.chayev.com/contact/">
     
     <title>
-  Contact · Michael Ibragimchayev
+  Contact Me · Michael Ibragimchayev
 </title>
 
     
@@ -56,6 +56,8 @@
       
     
 
+    
+      <link rel="stylesheet" href="https://www.chayev.com/css/custom.css" />
     
 
     
@@ -99,7 +101,11 @@
             </li>
           
             <li class="navigation-item">
-              <a class="navigation-link" href="https://www.chayev.com/contact/">Contact me</a>
+              <a class="navigation-link" href="https://www.chayev.com/projects/">Projects</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="https://www.chayev.com/contact/">Contact</a>
             </li>
           
         
@@ -118,10 +124,21 @@
   <section class="container page">
   <article>
     <header>
-      <h1>Contact</h1>
+      <h1>Contact Me</h1>
     </header>
 
-    <p>✉️ Email me, <a href="mailto:michael@chayev.com">michael@chayev.com</a></p>
+    <form action="https://formspree.io/mvowyjge" method="POST">
+	<label for="name">Name:</label>
+	<input type="text" name="name" />
+	<label for="_replyto">Email:</label>
+	<input type="email" name="_replyto" />
+    <input type="hidden" name="_subject" value="Contact me: chayev.com" />
+    <input type="text" name="_gotcha" style="display:none" />
+	<label for="message">Message:</label>
+	<textarea name="message"></textarea>
+	<input type="submit" value="Send" />
+</form>
+<p>✉️ You could also email me directly at <a href="mailto:michael@chayev.com">michael@chayev.com</a> ✉️</p>
 
   </article>
 </section>
@@ -133,8 +150,6 @@
       
   <footer class="footer">
     <section class="container">
-      
-        <p>Thank you for visiting my page!</p>
       
       
         ©
