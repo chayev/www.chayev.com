@@ -10,7 +10,7 @@ slug = "projects"
     * yURL is a CLI (Command-Line Interface) and webapp that allows you to validate the behavior of your URLs.
 
 * BetterQuestions
-    * BetterQuestions is a private project that I'm working on with my friends. It is currently uses Google Sheets as a database with the React framework powering the frontend.
+    * BetterQuestions is a private project that I'm working on with my friends. It currently uses Google Sheets as a database with the React framework powering the frontend.
 
 * [Halsey Labs](https://github.com/halseylabs)
 

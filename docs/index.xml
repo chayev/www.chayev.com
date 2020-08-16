@@ -40,7 +40,7 @@ I am one of the co-founders of Gotham - a soft fork of the Hugo open-source proj
       <description>Gotham
  Gotham is a static site generator that is extremely fast, efficient, and modular. It is written in Goand is a soft fork of Hugo.    yURL
  yURL is a CLI (Command-Line Interface) and webapp that allows you to validate the behavior of your URLs.    BetterQuestions
- BetterQuestions is a private project that I&amp;rsquo;m working on with my friends. It is currently uses Google Sheets as a database with the React framework powering the frontend.</description>
+ BetterQuestions is a private project that I&amp;rsquo;m working on with my friends. It currently uses Google Sheets as a database with the React framework powering the frontend.</description>
     </item>
     
   </channel>
