@@ -92,7 +92,7 @@ pygmentscodefencesguesssyntax = true
     name = "Email"
     icon = "fas fa-envelope"
     weight = 4
-    url = "mailto:michael@chayev.com"
+    url = "contact/"
 
 
 [languages]
