@@ -5,10 +5,6 @@
     <link>https://www.chayev.com/categories/</link>
     <description>Recent content in Categories on Michael Ibragimchayev</description>
     <generator>Gotham -- gothamhq.com</generator>
-    <language>en</language>
-    
-	<atom:link href="https://www.chayev.com/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en</language><atom:link href="https://www.chayev.com/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
