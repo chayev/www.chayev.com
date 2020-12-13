@@ -44,6 +44,5 @@ jobs:
             if [[ $CIRCLE_BRANCH == "master" ]]; then
               rsync -va --delete src/public/ chayev@pluto.chayev.com:/var/www/chayev.com/
             else
-              rsync -va --delete src/public/ chayev@pluto.chayev.com:/var/www/beta.chayev.com/
+              rsync -va --delete src/public/ chayev@pluto.chayev.com:/var/www/staging.chayev.com/
             fi
-            
