@@ -4,7 +4,7 @@ title = "Michael Ibragimchayev"
 theme = "hugo-coder"
 
 googleAnalytics = "UA-174282916-1"
-publishdir = "../docs"
+publishdir = "public"
 
 languagecode = "en"
 defaultcontentlanguage = "en"

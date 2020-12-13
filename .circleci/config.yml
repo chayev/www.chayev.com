@@ -1,0 +1,49 @@
+version: 2.1
+
+workflows:
+  main:
+    jobs:
+      - build
+      - deploy:
+          requires:
+            - build
+jobs:
+  build:
+    docker:
+      - image: hubci/gotham:0.10
+    steps:
+      - checkout
+      - run: git submodule update --init --recursive
+      - run:
+          name: "Build Website With Gotham"
+          command: |
+            if [[ $CIRCLE_BRANCH == "master" ]]; then
+              HUGO_ENV=production gotham -v -s src/
+            else
+              HUGO_ENV=staging gotham -v -s src/ --config config.toml,staging-config.toml
+            fi
+      - run:
+          name: "Test Website"
+          command: htmlproofer src/public --allow-hash-href --check-html --empty-alt-ignore --disable-external
+      - persist_to_workspace:
+          root: src
+          paths:
+            - public
+  deploy:
+    docker:
+      - image: hubci/gotham:0.10
+    steps:
+      - attach_workspace:
+          at: src
+      - add_ssh_keys
+      - run:
+          name: "Deploy website"
+          command: |
+            echo 'pluto.chayev.com ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBHWkQvhLrhvth1d3x8fWvt3fHMJO+tO25RjZhySLi0bhOhY0igxUF7CEbXEVXChn838W2PWKw098fulppPqAv7M=' >> ~/.ssh/known_hosts
+
+            if [[ $CIRCLE_BRANCH == "master" ]]; then
+              rsync -va --delete src/public/ chayev@pluto.chayev.com:/var/www/chayev.com/
+            else
+              rsync -va --delete src/public/ chayev@pluto.chayev.com:/var/www/beta.chayev.com/
+            fi
+            
